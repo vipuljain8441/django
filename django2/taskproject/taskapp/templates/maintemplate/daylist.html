@@ -1,0 +1,16 @@
+{% include 'nav.html'%}
+
+<style>
+
+    
+</style>
+<h5 style="display: flex; justify-content: center;">This is a  list of days </h5>
+<ul style="list-style: none;">
+    <li class="l" name=day1 value="monday"> <a href="{% url 'day' '1' %}"> 1:monday </a></li>
+    <li class="l" name = day2 value="tuesday"> <a href=" {% url 'day' '2' %}"> 2:tuesday </a></li>
+    <li class="l" name = day3 value="wednesday"> <a href=" {% url 'day' '3' %}"> 3:wednesday </a> </li>
+    <li class="l" name = day4 value="thrusday"> <a href=" {% url 'day' '4' %}"> 4:thrusday </a> </li>
+    <li class="l" name = day5 value="friday"> <a href="{% url 'day' '5' %}"> 5:friday </a> </li>
+    <li class="l" name = day6 value="saturday"> <a href="{% url 'day' '6' %}"> 6:saturday </a> </li>
+    <li class="l" name = day7 value="sunday"> <a href="{% url 'day' '7' %}"> 7:sunday </a> </li>
+ </ul>
